@@ -1,14 +1,13 @@
-const assertEqual = function(actual, expected){
-    if (actual === expected){
-        return `✅✅✅ Assertion Passed: ${actual} === ${expected}`;
-    } else {
-        return `🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`;
-    }
+const assertEqual = function (actual, expected) {
+  if (actual === expected) {
+    return `✅✅✅ Assertion Passed: ${actual} === ${expected}`;
+  } else {
+    return `🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`;
+  }
 };
 
-const tail = function(array){
-    return array.slice(0).shift();
-
+const tail = function (array) {
+  return array.slice(0).shift();
 };
 
 
